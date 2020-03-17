@@ -13,6 +13,7 @@ const int m =7;
   int start_y;
   int end_x;
   int end_y;
+ 
   
 
   int visited[n][m]; 
@@ -73,9 +74,10 @@ for(int row = 0; row < R; row++) {  // stop loops if nothing to read
     int visited1[M][N];
 	memset(visited1, 0, sizeof visited1);
 	int max_dist = 0;
-	//cout<<start_x<<start_y<<end_x<<end_y<<endl;
+	findends();
     findlargestpath(result, visited1, start_x, start_y, end_x, end_y, max_dist, 0,1);
     result[end_x][end_y]=max_dist+1;
+    //cout<<start_x<<start_y<<end_x<<end_y<<endl;
     cout << max_dist+1<<endl;
     for(int i=0; i<5; i++)
     {

@@ -10,6 +10,6 @@ void reset_result(int , int drr[5][7] ) ;
 void findLargesthole(int arr[5][7] );
 bool isSafe(int grr[5][7], int hrr[5][7] , int , int );
 void findlargestpath(int brr[5][7], int crr[5][7], int , int ,int , int , int& , int , int) ;
-
+void findends();
 
 #endif

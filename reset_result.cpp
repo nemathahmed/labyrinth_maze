@@ -24,8 +24,7 @@ void reset_result(int key, int input[n][m])
                     start_y=j;
                         times=10;
                     }
-                end_x=3;
-                end_y=2;
+               
                 
                     
                 
